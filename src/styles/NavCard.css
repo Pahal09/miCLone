@@ -1,0 +1,21 @@
+.navCard {
+    width: 10vmax;
+    text-align: center;
+
+}
+
+.navCard img {
+    width: 10vmax;
+}
+
+.navCard>span {
+    color: orangered;
+    font-weight: 500;
+    font-size: 1vmax;
+}
+
+.navCard>p {
+    font-weight: 500;
+    font-size: 1vmax;
+    margin: 0;
+}

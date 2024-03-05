@@ -1,0 +1,12 @@
+.productReviews {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 367px) and (max-width: 500px) {
+    .productReviews {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1vmax;
+    }
+}

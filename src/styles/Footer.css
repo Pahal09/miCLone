@@ -1,0 +1,162 @@
+.preFooter1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5vmax 0 0 0;
+    padding: 1.5vmax;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+.preFooter1>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #393737;
+}
+
+.preFooter1 div svg {
+    fill: grey;
+    transform: translateY(-.2vmax) scale(2);
+    margin: 2vmax;
+}
+
+.preFooter1>div:hover svg {
+    fill: rgb(11, 11, 11);
+}
+
+/* prefooter */
+
+.preFooter2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5vmax 0 0 0;
+    padding: 1.5vmax;
+    background: #fff;
+    text-transform: capitalize;
+}
+
+.preFooter2>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #393737;
+}
+
+.preFooter2>div>p {
+    color: rgb(13, 12, 12);
+    font-size: 1.5vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 18vamx;
+    margin: 0%;
+}
+
+.preFooter2>div>span {
+    color: rgb(13, 12, 12);
+    font-size: 1vmax;
+    width: 18vamx;
+    margin: 0%;
+}
+
+.preFooter2>div>div>input {
+    border: none;
+    outline: none;
+    padding: .5vmax 1vmax;
+    font-size: 1vmax;
+    width: 20.4vmax;
+    margin-bottom: .5vmax;
+}
+
+.preFooter2>div>div>button {
+    border: none;
+    outline: none;
+    padding: .5vmax 1vmax;
+    font-size: 1vmax;
+    background: none;
+}
+
+.preFooter2>div>div {
+    border: 1px grey solid;
+}
+
+.preFooter2>div:last-child {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 18vmax;
+}
+
+.preFooter2>div:last-child svg {
+    fill: rgb(90, 86, 86);
+    cursor: pointer;
+}
+
+.preFooter2>div:last-child svg:hover {
+    fill: rgb(4, 4, 4);
+    cursor: pointer;
+}
+
+/* preFooter2 */
+
+.footer {
+    background: #000;
+    color: rgb(126, 119, 119);
+    padding: 2vmax;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.footer>div {
+    display: flex;
+    flex-direction: column;
+    padding: 2vmax;
+}
+
+.footer>div a {
+    font-size: 1vmax;
+    text-decoration: none;
+    color: rgb(149, 144, 144);
+}
+
+.footer:last-child button {
+    background: none;
+    color: white;
+    border: 1px grey solid;
+    padding: 0.5vmax 2.5vmax;
+}
+
+.footer:last-child button:hover {
+    background: rgba(105, 102, 102, 0.561);
+}
+
+/* media */
+@media (min-width: 367px) and (max-width: 500px) {
+
+    .footer {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .preFooter2 {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 2vmax;
+        place-items: center;
+    }
+}
+
+.end {
+    height: 1px;
+    width: 85vmax;
+    background: rgb(36, 36, 36);
+    margin: auto;
+    margin-bottom: 1vmax;
+}
+
+.copy {
+    font-size: 1vmax;
+    color: white;
+    width: 85vmax;
+    margin: auto;
+}

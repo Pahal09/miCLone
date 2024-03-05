@@ -1,0 +1,51 @@
+.preNav {
+    background: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.preNav>div {
+    padding: 0 4vmax;
+    display: flex;
+    align-items: center;
+}
+
+.preNav>div>a {
+    color: rgb(180, 180, 180);
+    margin: .6vmax 1vmax;
+    font-size: .9vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.preNav>div>a:hover {
+    color: #fff;
+}
+
+.preNav>div>span {
+    color: rgb(100, 100, 100);
+    font-size: 1vmax;
+}
+
+@media (min-width: 367px) and (max-width: 500px) {
+    .preNav {
+        display: grid;
+        grid-template-columns: auto;
+        place-items: center;
+    }
+
+    .preNav>div {
+        text-align: center;
+    }
+
+    .preNav>div>span {
+        color: rgb(100, 100, 100);
+        font-size: 2.5vmax;
+    }
+
+    .preNav>div {
+        padding: 0 2vmax;
+    }
+}

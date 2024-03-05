@@ -1,0 +1,28 @@
+.starProducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease;
+}
+
+.starProducts>div:last-child {
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+    width: 46%;
+}
+
+.starProducts img:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@media (min-width: 367px) and (max-width: 500px) {
+    .starProducts {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .starProducts img{
+        width: 100%;
+    }
+}

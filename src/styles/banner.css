@@ -1,0 +1,7 @@
+
+@media (min-width: 367px) and (max-width: 500px) {
+   .banner h4{
+        font-size: 5px;
+        text-align: center;
+    }
+}
